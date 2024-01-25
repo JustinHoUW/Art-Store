@@ -1,0 +1,170 @@
+h1 {
+    margin-left: 50px;
+    background-color: #f0f0f0;
+    font-family: "Open Sans";
+    font-weight: 60px;
+    
+}
+
+h2 {
+    margin-left: 5px;
+    font-family: "Lato";
+    font-size: 30px;
+}
+
+#Louise {
+    margin-left: 5px;
+}
+
+.box {
+    float: left;
+}
+
+
+#table1 {
+    font-size: 14px;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.wrapper {
+    margin: 0 auto; /* Center the website */
+    width: 1000px;
+
+}
+
+.id {
+    margin-left: 50px;
+}
+
+#Similiar-Products1 {
+    margin-left: 50px;
+}
+
+.Last-Name {
+    margin-bottom: -90px;
+}
+
+#My-Account{
+    list-style: none;
+}
+
+#Wish-List {
+    list-style: none;
+}
+
+#Shopping-Cart {
+    list-style: none;
+}
+
+#Checkout {
+    list-style: none;
+}
+
+nav {
+    margin-left: 50px;
+    width: 95%;
+    height: 30px;
+    background-color: black;
+}
+
+.Change-Grey {
+    background-color: #eee;
+}
+
+.Second-Nav { 
+    height: 40px;
+}
+
+.First-Box {
+    height: 200px;
+    width: 200px;
+    border-style: ridge;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.Bottom-Buttons {
+    background-color: #F5F5F5; /* Grey color */
+    border: 1px solid #808080; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: blue;
+    cursor: pointer;
+    transition: background-color 1.0s; /* Add a smooth transition for the background color */
+}
+
+.Bottom-Buttons:hover {
+    color: red; /* Change the background color on hover */
+    background-color: #20b9ff;
+}
+
+.Second-Box {
+    height: 200px;
+    width: 200px;
+    border-style: ridge;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.Third-Box {
+    height: 200px;
+    width: 200px;
+    border-style: ridge;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.Fourth-Box {
+    height: 200px;
+    width: 200px;
+    border-style: ridge;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.The-Body {
+    background-color: white;
+    margin-left: 50px;
+    border-style: ridge;
+}
+
+.Upper-Buttons {
+    background-color: #F5F5F5; /* Grey color */
+    border: 1px solid #808080; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: blue;
+    height: 30px;
+    width: 233px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 1.0s; /* Add a smooth transition for the background color */
+}
+
+.Upper-Buttons:hover {
+     color: red; /* Change the background color on hover */
+     background-color: #20b9ff;
+}
+
+.Middle-Button {
+    margin-left: 270px;
+    border: 1px solid #808080; /* Border color */
+    height: 50px;
+    line-height: 50px;
+    width: 670px;
+}
+
+#button1 {
+    width: 280px;
+}
+
+.Long-Paragraph {
+    font-family: "Open Sans";
+}
+
+.wrapper-two {
+    margin-left: 50px;
+    width: 95%;
+    height: 30px;
+background-color: black;
+}
+

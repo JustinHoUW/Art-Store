@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class = "Change-Grey">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel = "stylesheet" href = "style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<div class="wrapper">
+
+    <body style = "background-color: #eee;">
+        <nav>
+            <ul id="Top-Menu" style = "text-align: right;">
+                <li style= "line-height: 30px; display: inline-block" id="My-Account">
+                    <a style="text-decoration: none; padding: 0 20xp; padding: 0 20px; font-size: smaller; color: grey;" a href="pageTwo.html" id="myAccount">My Account</a>
+                </li>
+                <li style="line-height: 30px; display: inline-block" id="Wish-List">
+                    <a style="text-decoration: none; padding: 0 20xp; padding: 0 20px; font-size: smaller; color: grey;" a href="#" id="wishList">Wish List</a>
+                </li>
+                <li style="line-height: 30px; display: inline-block" id="Shopping-Cart">
+                    <a style="text-decoration: none; padding: 0 20px; font-size: smaller; color: grey;" a href="#" id="shoppingCart">Shopping Cart</a>
+                </li>
+                <li style="line-height: 30px; display: inline-block" id="Checkout">
+                    <a style="text-decoration: none; padding: 0 20px; font-size: smaller; color: grey" a href="#" id="checkout">Checkout</a>
+                </li>
+            </ul>
+        </nav>
+
+<h1 style = "font-size: 45px; margin-top: 5px;">Art Store</h1>
+<div id = "bottomArt">
+    <nav class = "Second-Nav">
+    <ul style = "background-color: #F5F5F5; border-style: ridge; margin-top: -30px;"> 
+        <li style="line-height: 40px; display: inline-block; margin-left: -50px;">
+            <a id="Home-link" style="text-decoration: none; padding: 0 10px;">
+                <a href="url" style="color: grey; text-decoration: none;">Home</a>
+            </a>
+        </li>
+        <li style="line-height: 40px; display: inline-block">
+            <a id="AboutUs-link" style="text-decoration: none; padding: 0 10px; color: darkgrey;">
+                <a href="url" style="color: grey; text-decoration: none; margin-left: 11px;">About Us</a>
+            </a>
+        </li>
+        <li style="line-height: 40px; display: inline-block">
+            <a id="ArtWorks-link" style="text-decoration: none; padding: 0 10px; color: darkgrey;">
+                <a href="url" style="color: grey; text-decoration: none; margin-left: 11px;">Art Works</a>
+            </a>
+        </li>
+        <li style="line-height: 40px; display: inline-block">
+            <a id="Artists" style="text-decoration: none; padding: 0 10px; color: darkgrey;">
+                <a href="url" style="color: grey; text-decoration: none; margin-left: 11px;">Artists</a>
+            </a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<div class = "The-Body">
+    <h2 style = "margin-left: 9px;">
+        Customer Registration 
+    </h2>
+    <p style = "margin-left: 9px; font-size: 24px;" >
+        1. User Info
+    </p>
+    <hr style="margin-left: 9px; margin-top: -24px;">
+    
+    <form action="http://faculty.washington.edu/ealmasri/assign1.php" method="post">
+        <div style = "display: inline-block;">
+        <label for="fname" style="margin-left: 9px;">First name:</label>
+        <input type="text" id="fname" name="first" style=" margin-left: 9px; width: 173px;" required>
+        
+        <label class = "Last-Name" for="lname" style="margin-left: 49px ;">Last name:</label>
+        <input type="text" id="lname" name="last" style="width: 173px;" required>
+
+        </div>
+        <br>
+        <br>
+        <label for="email" style="display: inline-block; margin-left: 9px;">Email:</label><br>
+        <input type="email" id="email" name="email" style = "width: 480px; margin-left: 9px;" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Enter a valid email address">
+        <br>
+        <br>
+
+        <div style="display: inline-block;">
+        <label for="password" style = "margin-left: 9px;">Password:</label>
+        <input type="password" id="password" name="pass1" style="display: inline-block; margin-left: 15px;  width: 175px;" required>
+
+        <label for="repeatPassword" style= "margin-left:50px;">Repeat Password:</label>
+        <input type="password" id="repeatPassword" name="pass2" style="width: 173px;" required required pattern="^.{6,}$" title="Password must be at least 6 characters">
+        
+        </div>
+
+        <p style = "margin-left: 9px; font-size: 24px;">
+            2. Location
+        </p>
+        <hr style="margin-left: 9px; margin-top: -24px;">
+
+        <label for="Address" style="margin-left: 9px;">Address:</label>
+        <input type="text" id="Address" name="address" style="width: 462px;" required>
+        <br>
+        <br>
+        <label for="City" style="margin-left: 9px;">City:</label>
+        <input type="text" id="City" name="city" style="margin-left: 9px;" required>
+
+        <label for="State" style="margin-left: 90px;">State:</label>
+        <input type="text" id="State" name="state" style="margin-left: 9px; width: 40px;" required>
+
+
+        <label for="Zip" style="margin-left: 120px;">Zip:</label>
+        <input type="text" id="Zip" name="zip" style="margin-left: 9px; width: 63px;" required>
+        <br>
+        <br>
+        <label for="Phone" style="margin-left: 9px;">Phone:</label>
+        <input type="text" id="Phone" name="phone" style="margin-left: 9px; width: 120px;" required pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number">
+        
+        <label for="Country" style="margin-left: 96px;">Country</label>
+        <br>
+
+            <select name = "country" style = "margin-left: 295px; width: 121px; " required>
+                <option value="United States">United States</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Russia">Russia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Japan">Japan</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="DR Congo">DR Congo</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Iran">Iran</option>
+                <option value="Germany">Germany</option>
+                <option value="Thailand">Thailand</option>
+            </select>
+
+         <br>
+         <label for="Continent" style="margin-left: 9px;">Continent</label><br>
+            <input style = "margin-left: 14px;"type="radio" name="continent" value="Africa" required> Africa
+<span>&nbsp;&nbsp;&nbsp;</span><br>
+<input style = "margin-left: 14px;" type="radio" name="continent" value="Asia"> Asia
+<span>&nbsp;&nbsp;&nbsp;</span><br>
+<input style = "margin-left: 14px;" type="radio" name="continent" value="Europe"> Europe
+<span>&nbsp;&nbsp;&nbsp;</span><br>
+<input style = "margin-left: 14px;" type="radio" name="continent" value="North America"> North America
+<span>&nbsp;&nbsp;&nbsp;</span><br>
+<input style = "margin-left: 14px;" type="radio" name="continent" value="Oceania"> Oceania
+<span>&nbsp;&nbsp;&nbsp;</span><br>
+<input style = "margin-left: 14px;" type="radio" name="continent" value="South America"> South America
+
+
+<div class="scrollmenu">
+</div>
+
+         <p style = "margin-left: 9px; font-size: 24px;">
+            3. Personal Details
+        </p>
+        <hr style="margin-left: 9px; margin-top: -24px;">
+
+
+
+      </body>
+        </ul>
+
+        <div style = "display: inline-block;">
+            <label style = "margin-left: 9px" for="birthdate">Birth Date</label>
+        <input style = "margin-left: 9px" type ="date" id="birthday" name="birthday" required>
+
+        <label style = "margin-left: 140px;" for="favoriteColor">Favorite Color</label>
+        <input type="color" id="favoriteColor" name="favorite" value="#0000FF" required> 
+        <br>
+        <br>
+        <label style = "margin-left: 9px;" for="ArtInterest">Interest in Art</label>
+        <select id = "ArtInterest" name = "interest" style = "margin-left: 15px; width: 121px; " required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+
+        </select>
+
+
+    </div>
+
+
+
+    <p style = "margin-left: 9px; font-size: 24px;">4. All Done</p>
+    <hr style="margin-left: 9px; margin-top: -24px;">
+    <input style = "margin-left: 18px" type="checkbox" id="Terms" name="accept" required>
+    <label style = "margin-left: 2px; font-weight: bolder;" for="Terms">I agree to the Terms of Site</label>
+<br>
+<br>
+<div>
+    <button style = "background-color: rgb(122, 191, 250);border-radius: 5px; margin-left: 18px;">
+    <img class = "box" style = margin-left:10px; src = "button_ok.png" alt = "Check-Button" width = "16" height = "16">
+    <input style = "margin-left: 18px; border: none; background-color:  rgb(122, 191, 250);" type="submit" id="SignMeUp" name="signmeup" required>
+</button>
+</div>
+</form>
+</body>
+</div>
+</div>
+</html>
