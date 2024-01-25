@@ -1,6 +1,6 @@
 h1 {
     margin-left: 50px;
-    background-color: #f0f0f0;
+    background-image: url('stucco_@2X.png');
     font-family: "Open Sans";
     font-weight: 60px;
     
@@ -69,7 +69,7 @@ nav {
 }
 
 .Change-Grey {
-    background-color: #eee;
+    background-image: url('stucco_@2X.png');
 }
 
 .Second-Nav { 
@@ -126,16 +126,17 @@ nav {
     background-color: white;
     margin-left: 50px;
     border-style: ridge;
+
 }
 
 .Upper-Buttons {
     background-color: #F5F5F5; /* Grey color */
     border: 1px solid #808080; /* Border color */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     color: blue;
-    height: 30px;
+    height: 50px;
     width: 233px;
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
     transition: background-color 1.0s; /* Add a smooth transition for the background color */
 }
@@ -147,10 +148,10 @@ nav {
 
 .Middle-Button {
     margin-left: 270px;
-    border: 1px solid #808080; /* Border color */
-    height: 50px;
-    line-height: 50px;
-    width: 670px;
+    border: 1px solid rgba(238, 238, 238, 0.7); /* Border color */
+    height: 70px;
+    line-height: 70px;
+    width: 340px;
 }
 
 #button1 {
@@ -158,13 +159,13 @@ nav {
 }
 
 .Long-Paragraph {
-    font-family: "Open Sans";
+    font-size: 18px;
 }
 
 .wrapper-two {
     margin-left: 50px;
     width: 95%;
     height: 30px;
-background-color: black;
+    background-color: black;
 }
 
