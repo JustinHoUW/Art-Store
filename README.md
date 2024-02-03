@@ -23,6 +23,8 @@ This repository contains my project creating two HTML web pages (`pageOne.html` 
 ## Important Notes
 
 - The form on `pageTwo.html` submits data to `http://faculty.washington.edu/ealmasri/assign1.php`.
+<img width="709" alt="Screen Shot 2024-02-03 at 12 52 34 AM" src="https://github.com/JustinHoUW/Art-Store/assets/94030022/25d9b20f-2edc-4e5f-bd75-1d452812f565">
+
 - Dummy links are used with the destination URL set to `#`.
 
 ## Submission
